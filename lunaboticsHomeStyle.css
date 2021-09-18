@@ -1,0 +1,31 @@
+body{
+    font-family: "Gill Sans", sans-serif;
+}
+p {
+    font-size: 18px;
+    font: "Gill Sans", sans-serif;
+}
+
+.navBar{
+    background-color: #111;
+    overflow: hidden;
+}
+
+.navBar a {
+    float: left;
+    color: #ff825c;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .navBar a:hover{
+      background-color: #ff825c;
+      color: #111;
+  }
+
+  .navBar a.active{
+      background-color: #ff825c;
+      color: #111;
+  }
