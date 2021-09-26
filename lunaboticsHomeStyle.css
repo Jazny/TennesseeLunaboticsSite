@@ -18,8 +18,15 @@ img.rightImages{    /* formatting for images shifted to the right */
     margin-top: 40px;
 }
 
+img.centerImages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
 h1 {                /* h1 (header) text formatting */
-    color: #ffcfbf;
+    color: #ff8d60;
     font-size: 45px; 
     letter-spacing: 4px;
     font-weight: lighter;
@@ -32,10 +39,11 @@ h2 {            /* h2 (paragraph) text formatting */
     color: #e2cbc3;
     font-size: 25px; 
     letter-spacing: 3px;
+    line-height: 38px;
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
-    margin-left: 55px;
     margin-top: 60px;
+    text-align: center;
 }
 
 .center{
@@ -68,4 +76,20 @@ h2 {            /* h2 (paragraph) text formatting */
   .navBar a.active{
       background-color: #ff8d60;
       color: #111;
+  }
+
+  footer {
+    display: block;
+    padding: 5px;
+    background-color: #111;
+    font-size: 19px;
+    letter-spacing: 3.5px;
+    font-weight: lighter;
+    color: #ff8d60;
+    text-align: center;
+  }
+
+  pre{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
   }
